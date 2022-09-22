@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-app-region: none;
+}
+
+body {
+    background-color: burlywood;
+    display: grid;
+    place-content: center;
+    font-family: "Roboto, san-serif";
+    height: 100vh;
+    font-size: 2rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+}
